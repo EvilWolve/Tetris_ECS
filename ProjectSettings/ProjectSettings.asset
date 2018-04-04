@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 15
-  productGUID: 137b8ba33cd46c74197d1c206ee86f66
+  productGUID: ef3ea4e425a6b524aa834766528a1db1
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: Tetris
+  productName: Tetris_ECS
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -528,7 +528,8 @@ PlayerSettings:
   webGLUseEmbeddedResources: 0
   webGLCompressionFormat: 1
   webGLLinkerTarget: 0
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    1: ENABLE_MANAGED_JOBS
   platformArchitecture: {}
   scriptingBackend: {}
   il2cppCompilerConfiguration: {}
@@ -615,9 +616,9 @@ PlayerSettings:
   cloudServicesEnabled:
     UNet: 1
   facebookSdkVersion: 7.9.4
-  apiCompatibilityLevel: 2
-  cloudProjectId: 0f105985-2d71-459d-b3f3-aa9616b57c1c
-  projectName: Tetris
+  apiCompatibilityLevel: 3
+  cloudProjectId: b868863b-a34d-4519-9ef6-d16688ec56f0
+  projectName: Tetris_ECS (1)
   organizationId: evilwolf
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
