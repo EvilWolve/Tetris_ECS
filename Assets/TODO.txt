@@ -1,0 +1,10 @@
+Spawn game blocks, including randomized position and using color
+Handle filling a row
+Handle score
+Handle fill-up drop when rows below are cleared
+	-> Maybe I do need a "piece" concept to find the lowest pieces and check if any of them collides, if so, stop the entire piece?
+	-> With the current approach, individual blocks would just keep dropping...
+Handle sideways movement via player input
+Handle rotation
+Handle speedup via player input
+Handle speedup via difficulty
